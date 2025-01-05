@@ -1,16 +1,43 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  min-height: 100vh; /* Ensure it adapts for dynamic content */
+  width: 100%;       /* Full width */
   text-align: center;
 }
 
+/* Main app container */
+.app-container {
+  min-height: 100vh; /* Ensure the container adapts to dynamic content */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-attachment: fixed; /* Optional: Adds a parallax effect */
+}
+
+/* Card styling */
 .card {
   padding: 2em;
 }
 
+/* Navigation styling */
 nav li {
   list-style: none;
   display: inline-block;
   margin: 1em;
+}
+
+.small-profile-img {
+  width: 12px;
+  height: 12px;
+  object-fit: cover; /* Ensures the image doesn't distort */
 }
