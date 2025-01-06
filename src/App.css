@@ -7,6 +7,10 @@
 
 html, body {
   height: 100%;
+  font-family: 'Sixtyfour', sans-serif;color: rgba(63, 177, 110, 0.973);text-shadow: 
+  2px 2px 2px rgb(13, 14, 13),  /* Light shadow */
+  4px 4px 4px rgba(0, 0, 0, 0.986),  /* Medium shadow */
+  6px 6px 6px rgb(122, 5, 5);  /* Darker shadow */ /* Replace 'Roboto' with your selected font */
 }
 
 #root {
@@ -41,3 +45,24 @@ nav li {
   height: 12px;
   object-fit: cover; /* Ensures the image doesn't distort */
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f2937;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+a {
+  color: #3b82f6; /* Tailwind's blue-500 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+

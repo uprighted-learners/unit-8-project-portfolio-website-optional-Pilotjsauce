@@ -5,6 +5,7 @@ const Contact = () => {
         <form className="space-y-4">
           <div>
             <label className="block text-gray-700">Name</label>
+            <div></div>
             <input
               type="text"
               className="w-full p-2 border rounded"
@@ -13,6 +14,7 @@ const Contact = () => {
           </div>
           <div>
             <label className="block text-gray-700">Email</label>
+            <div></div>
             <input
               type="email"
               className="w-full p-2 border rounded"
@@ -21,6 +23,7 @@ const Contact = () => {
           </div>
           <div>
             <label className="block text-gray-700">Message</label>
+            <div></div>
             <textarea
               className="w-full p-2 border rounded"
               rows="4"
